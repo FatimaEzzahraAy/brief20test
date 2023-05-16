@@ -1,0 +1,11 @@
+.Menu-nav button{
+    color: #efe6e6;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+    font-size:large ;
+    margin-right: 1%;
+}
+.Menu-nav button:hover{
+    color: white;
+}

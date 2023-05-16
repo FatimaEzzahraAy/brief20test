@@ -1,0 +1,30 @@
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 6vh;
+  color: #efe6e6;
+  padding-top: 1%;
+  padding-left: 1%;
+}
+
+.App-parent{
+  display: flex;
+  align-items: center;
+  margin: 3% 3%;
+}
+.App-enfant1{
+  width: 25%;
+}
+.App-enfant2{
+  width: 33.33%;
+  margin-left: 3%;
+}
+.App-enfant3{
+  width: 25%;
+  margin-left: 3%;
+}
+
+.App-H{
+  margin: 1% 5%;
+}

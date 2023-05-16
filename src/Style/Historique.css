@@ -1,0 +1,10 @@
+.tableau{
+    width: 100%;
+}
+.tableau th{
+    color: #323c50;
+}
+.tableau td{
+    text-align: center;
+    color: #efe6e6;
+}

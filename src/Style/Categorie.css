@@ -1,0 +1,38 @@
+.Cat-form{
+    border-radius: 10px;
+    border: 1px solid #282c34;
+    padding: 1% 1% 1% 1%;
+}
+
+.Cat-form input{
+    width: 100%;
+    padding: 8px 8px;
+    margin-top: 5% ;
+    display: inline-block;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #282c34;
+    border:1px solid #323c50;
+    font-size: large;
+    outline: none;
+    }
+    input::placeholder{
+        color: #282c34;
+    }
+
+.Cat-form button {
+    background-color: white;
+    color: #282c34;
+    border: 1px solid #323c50;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: large;
+    }
+        .Cat-form button:hover {
+        border-radius: 20px;
+        }
+   
