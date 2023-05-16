@@ -3,6 +3,7 @@
 }
 .tableau th{
     color: #323c50;
+    /* background-color: rgba(1, 49, 1, 0.54); */
 }
 .tableau td{
     text-align: center;

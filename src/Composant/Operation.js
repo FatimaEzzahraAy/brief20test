@@ -11,6 +11,9 @@ function Operation({setOp,CatListe,TableOp,setTableOp,SRevenu,setSRevenu,SDepens
 
   function Valider(e) {
     e.preventDefault();
+
+
+    if(Nom != "" && Montant != "" && Desc != "" &&( DateOp != "") && Type != "" && Ctg != "" ){
     setTableOp([...TableOp,{
       nom : Nom,
       montant : Montant,
@@ -24,13 +27,13 @@ function Operation({setOp,CatListe,TableOp,setTableOp,SRevenu,setSRevenu,SDepens
     } else if(Type === "Dépense") {
       setSDepense([...SDepense,{Mntant : Montant}])
     }  
-  }
+  }}
 
 
   return (
         <form className="Operation-form">
             <input type="text" placeholder="Nom" onChange={(e)=>setNom(e.target.value)} />
-            <input type="number" placeholder="Montant" onChange={(e)=>SetMontant(e.target.value)} />
+            <input type="number" placeholder="Montant" step={0.01} min={0.00} onChange={(e)=>SetMontant(e.target.value)} />
             <select onChange={(e)=>SetType(e.target.value)}>
                 <option>Type</option>
                 <option>Dépense</option>

@@ -9,12 +9,13 @@ function Categorie({setCat,CatListe,setCatListe}) {
 
         e.preventDefault();
         if (NomCat != "") {
-            setCatListe([...CatListe,{Categorie : NomCat}])  
+            setCatListe([...CatListe,{Categorie : NomCat}]) 
+            document.getElementById("formCat").reset();
         }
     }
     return (
-        <form className="Cat-form">
-            <input type="text" placeholder="Catégorie" onChange={(e)=>setNomCat(e.target.value)}/>
+        <form className="Cat-form" id="formCat">
+            <input type="text"  placeholder="Catégorie" onChange={(e)=>setNomCat(e.target.value)}/>
             <button onClick={Ajouter}>Ajouter</button>
             {<button onClick={()=>setCat("false")}>Fermer</button>  }
         </form>

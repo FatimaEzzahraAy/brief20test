@@ -24,7 +24,7 @@ function Historique({TableOp}) {
         <td>{Op.dateOp}</td>
         </tr>)
         :
-        (<tr style={{background:"rgba(1, 49, 1, 0.745)"}} >
+        (<tr style={{background:" rgba(1, 49, 1, 0.54)"}} >
         <td>{Op.nom}</td>
         <td>{Op.montant}</td>
         <td>{Op.type}</td>

@@ -12,7 +12,7 @@
     border-radius: 10px;
     box-sizing: border-box;
     color: #282c34;
-    border:1px solid #323c50;
+    border:1px solid #282c34;
     font-size: medium;
     outline: none;  /*le border lorsque on selectionne le input ou les autres */
     }
@@ -29,9 +29,9 @@
 }
 .Operation-divBtn button {
     width: 45%;
-    background-color: white;
-    border:1px solid #323c50;
-    color: #282c34;
+    background-color: #282c34;
+    border:1px solid #282c34;
+    color:#efe6e6;
     border-radius: 10px;
     cursor: pointer;
     padding: 8px;
